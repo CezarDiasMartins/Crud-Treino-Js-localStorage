@@ -1,0 +1,8 @@
+1- Recriar projeto para praticar front-end
+2- Colocar validação no formulario da modal
+2.1- Nome do cliente deve ter no minimo 3 caracteres
+2.2- Email deve possuir @ e .com
+2.3- Telefone 11 caracteres
+2.4- Cidade do cliente deve ter no minimo 3 caracteres
+3- Pegar funções da classe main.js e separar por assuntos
+4- Criar máscara no campo Telefone

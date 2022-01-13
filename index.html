@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Projeto Treino</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Projeto Treino</h1>
+    </header>
+    <main class="conteudo">
+        <button type="button">Cadastrar Cliente</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vitor</td>
+                    <td>vitor@gmail.com</td>
+                    <td>(67) 99876-5432</td>
+                    <td>Campo Grande</td>
+                    <td>
+                        <button type="button">Editar</button>
+                        <button type="button">Excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <header>
+                <h2>Novo Cliente</h2>
+            </header>
+            <form>
+                <input type="text" placeholder="Nome do Cliente" required>
+                <input type="email" placeholder="E-mail do Cliente" required>
+                <input type="tel" placeholder="Celular do Cliente" required>
+                <input type="text" placeholder="Cidade do Cliente" required>
+            </form>
+            <footer">
+                <button>Salvar</button>
+                <button>Cancelar</button>
+            </footer>
+        </div>
+    </main>
+    <footer class="rodape">
+        Copyright &copy; Cézar
+    </footer>
+</body>
+</html>
